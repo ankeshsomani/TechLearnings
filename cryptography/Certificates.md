@@ -49,12 +49,11 @@ Certificate:
 
 ```
 #### Tools used for viewing certificates
-1. openssl
+openssl
 ```
-   openssl x509 -in certificate.pem -text -noout
+openssl x509 -in certificate.pem -text -noout
 ```
-3. keytool
- ```
+keytool
+```
 keytool -list -v -keystore keystore.jks
-
 ```
