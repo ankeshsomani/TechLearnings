@@ -57,3 +57,9 @@ keytool
 ```
 keytool -list -v -keystore keystore.jks
 ```
+
+#### Refer and run below programs to understand practical of above concepts
+```
+https://github.com/ankeshsomani/learning-lab/blob/main/src/main/java/com/ankesh/cryptography/ReadCertificate.java
+https://github.com/ankeshsomani/learning-lab/blob/main/src/main/java/com/ankesh/cryptography/SimulatedSessionKeyExchange.java
+```
