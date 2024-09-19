@@ -13,6 +13,16 @@ Systems or standards that defines how users are granted access to resources base
    Used widely for authorizing third-part applications to access user data without user sharing their login credentials(username, password).
    OAuth allows apps to obtain access token that represent user's permission to acess specific user resources.
    Ex/- "Sign in with Google", "Sign in with facebook"
+
+   OAuth(Open Authorization) is an open standard for token based authorization. OAuth2 uses access tokens.An access token is a piece of data that represents the authorization to access resources on behalf of the end-user.There is no specific format for access tokens but most often Json Web Token(JWT) is used.This enables the token issuers to include data in the token itself.
+   Key roles:-
+   1. Resource Owner :- User who owns the resources and can grant access to them.
+   2. Client :- Client or client application requesting access of specific user resources.
+   3. Authorization server :- Responsible for authenticating user and issuing the access token.
+   4. Resource server :- Server/Application holding the main user data/resource which is requested by client.Accepts and validates access token from client and provide appropriate response.
+   5. Access token:- 
+   6. Refresh token:-
+
    
 ### OpenID Connect (OIDC)
    Build on top of OAuth2.0.It provides authentication and authorization by adding an identity layer to OAuth2.0.
